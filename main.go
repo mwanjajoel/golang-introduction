@@ -1,8 +1,7 @@
-package Go
+package main
 
 //including Packages we shall be using in this simple program
 import (
-
 	"fmt"
 )
 
@@ -18,7 +17,7 @@ func main() {
 //dealing with numbers, in a separate method
 func dealingWithNumbers() {
 
-	fmt.Println("1 + 1 =", 1 + 1)
+	fmt.Println("1 + 1 =", 1+1)
 
 }
 
@@ -28,4 +27,3 @@ func getStringLength() {
 	fmt.Println(len("Wassup my people"))
 
 }
-
